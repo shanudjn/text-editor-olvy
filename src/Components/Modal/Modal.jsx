@@ -6,8 +6,8 @@ function Modal({ handleAdd, handleCancel }) {
 
 
     return (
-        <div className={`absolute z-10 mt-10 ml-20`}>
-            <div className={`border-2 border-gray-900`}>
+        <div className={`absolute z-10 mt-10 ml-20 m-4`}>
+            <div className={`border-2 border-gray-900 p-4`}>
                 <div className={`flex justify-between`}>
                     <label className={`text-left `}>Enter Link</label>
                     <button onClick={() => handleCancel()}><span className="material-icons">
@@ -27,5 +27,3 @@ function Modal({ handleAdd, handleCancel }) {
 }
 
 export default Modal
-{/* <div className={`border-2 border-gray-900 flex flex-col lg:w-2/6 sm:w-full h-20 m-auto text-center p-2 `}> */ }
-//
