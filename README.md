@@ -18,4 +18,4 @@ The follwing the concepts in ReactJS that were implemented in this project
     Eg : `{{cat_meme}}`
 
 ## Demo 
-Here is loom video [demo](https://www.loom.com/share/162b9795f6e74cb4846b63b96cadeb1a)
+Here is a loom video [demo](https://www.loom.com/share/162b9795f6e74cb4846b63b96cadeb1a)
