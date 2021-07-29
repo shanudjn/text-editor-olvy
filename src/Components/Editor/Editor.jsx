@@ -23,17 +23,14 @@ function Editor() {
             Image,
             Underline,
             Link
-
         ],
 
     })
     return (
 
         <>
-
             <Menu editor={editor} />
             <EditorContent editor={editor} />
-
 
         </>
 
