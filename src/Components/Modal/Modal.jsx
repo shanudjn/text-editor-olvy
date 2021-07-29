@@ -6,7 +6,7 @@ function Modal({ handleAdd, handleCancel }) {
 
 
     return (
-        <div className={`absolute z-10 mt-10 ml-20 m-4`}>
+        <div className={`absolute z-10 mt-10 ml-20 m-4 bg-white`}>
             <div className={`border-2 border-gray-900 p-4`}>
                 <div className={`flex justify-between`}>
                     <label className={`text-left `}>Enter Link</label>
