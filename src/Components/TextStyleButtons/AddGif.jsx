@@ -9,7 +9,7 @@ function AddGif({ editor }) {
         const API_KEY = process.env.REACT_APP_API_KEY
 
 
-        const { data: { data } } = await axios.get(`http://api.giphy.com/v1/gifs/search?q=${searchString}&api_key=${API_KEY}&limit=5`)
+        const { data: { data } } = await axios.get(`https://api.giphy.com/v1/gifs/search?q=${searchString}&api_key=${API_KEY}&limit=5`)
         console.log(data)
         const memeImageUrl = data[0].images.original.webp
         console.log(memeImageUrl)
